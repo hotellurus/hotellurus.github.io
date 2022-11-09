@@ -4,6 +4,7 @@
     --skyblue: #0080FF;
     --brown: #36261B;
     --green: #c2c52d;
+    --white: #ffffff;
 }
 
 body {
@@ -57,8 +58,12 @@ text-shadow: #474747 3px 5px 2px;
 }
 
 .navbar-toggle {
-    background-color: #ffd800;
+    background-color: var(--brown);
     margin-right: 44px;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: var(--white)!important;
 }
 
 .navbar-inverse .navbar-toggle .icon-bar {
