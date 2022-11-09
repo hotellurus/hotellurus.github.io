@@ -1,0 +1,147 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hotel Lurus - Home for Everyone</title>
+    <link href="vendors/bootstrap-3.3.7/dist/css/bootstrap.css" rel="stylesheet" />
+    <link href="vendors/lightbox/css/lightbox.min.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-target="#mainNavBar" data-toggle="collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse" id="mainNavBar">
+                <ul class="nav navbar-nav">
+                    <li><a href="/">Home</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Room <span
+                                class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/room-category">Kategori Kamar 1</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="/gallery">Gallery</a></li>
+                    <li><a href="/news-and-promo">News & Promo</a></li>
+                    <li><a href="/contact-us">Contact Us</a></li>
+
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                      <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">User <span
+                                class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Manajemen</a></li>
+                            <li><a href="">Logout</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="cover">
+            <h1 class="titleCover1"><a href="#">HOTEL LURUS</a></h1>
+            <h2 id="title2">Home for Everyone</h2>
+        </div>
+    </div>
+
+        <div class="container">
+        <div class="col-md-12">
+            <div class="contact-title">
+                <h3><b>Kontak Kami</b></h3>
+            </div>
+        </div>
+
+        <div class="col-lg-6">
+            <div class="contact-area">
+                <div class="form-group">
+                    <label for="txtNama">Nama</label>
+                    <input type="text" class="form-control" name="nama" placeholder="Nama anda">
+                </div>
+                <div class="form-group">
+                    <label for="txtEmail">Email</label>
+                    <input type="text" class="form-control" name="alamat_email" placeholder="Email anda">
+                </div>
+                <div class="form-group">
+                    <label for="subyek">Subyek</label>
+                    <select class="form-control">
+                        <option>Default select</option>
+                        <option>Kamar</option>
+                        <option>Keluhan</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="pesan">Pesan</label>
+                    <textarea class="form-control" rows="5" name="pesan" placeholder="Pesan anda"></textarea>
+                </div>
+                <button type="submit" class="btn btn-success pull-right">Kirim Pesan</button>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+
+
+        <div class="col-lg-offset-1 col-lg-5">
+            <div class="article">
+                <div class="contact">
+                    <h2>Kontak Kami</h2>
+                    <table class="bullet">
+                        <tr>
+                            <td class="td1"><span class="glyphicon glyphicon-home"></span></td>
+                            <td class="td2">Jl Hankam Raya no. 154</td>
+                        </tr>
+                        <tr>
+                            <td class="td1"></td>
+                            <td class="td2">Bogor</td>
+                        </tr>
+                        <tr>
+                            <td class="td1"></td>
+                            <td class="td2">12521</td>
+                        </tr>
+                        <tr>
+                            <td class="td1"><span class="glyphicon glyphicon-phone-alt"></span></td>
+                            <td class="td2">021-582-1942</td>
+                        </tr>
+                        <tr>
+                            <td class="td1"><span class="glyphicon glyphicon-phone"></span></td>
+                            <td class="td2">081210882481</td>
+                        </tr>
+                        <tr>
+                            <td class="td1"><span class="glyphicon glyphicon-globe"></span></td>
+                            <td class="td2">
+                                <a href="#"><b>lany@hotellurus.com</b></a>
+                            </td>
+                        </tr>
+                    </table>
+                    <img style="width:100%;border-radius:5px; margin: 5px 0"
+                        src="https://q-xx.bstatic.com/xdata/images/hotel/840x460/270627548.jpg?ect=4g&k=174ef98ab6af8a13ad01f0af12e544ed8305325dae67b95ad25d5ff8aae0a0ad&o="
+                        alt="image" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-default navbar-inverse navbar-fixed-bottom">
+        <div class="navbar-brand">
+            <p><span class="glyphicon glyphicon-registration-mark"></span> Created By Philip Loa Pleyto 2017 </p>
+        </div>
+    </nav>
+
+    <script src="vendors/jquery-1-9-1.js"></script>
+    <script src="vendors/bootstrap-3.3.7/dist/js/bootstrap.min.js"></script>
+    <script src="vendors/lightbox/js/lightbox.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
